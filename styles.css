@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin: 2rem;
+}
+
+#title{
+    color: rgb(24, 8, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px whitesmoke;
+    border-bottom: 5px solid red ;
+    border-top: 5px solid red;
+}
+#title img {
+    max-width: 100px;
+}
+
