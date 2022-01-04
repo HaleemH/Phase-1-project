@@ -24,9 +24,12 @@ function init(){
 //establish eventlistener
 //check to see if input matches teamname, if so display it
 function createSearchFunction(){
-  engine.addEventListener('submit', (e) => {
+  engine.addEventListener('submit', handleSubmit);
+}
+
+function handleSubmit(e){
     e.preventDefault();
-    searchInput = document.querySelector("#teamName").value;
+    searchInput = document.querySelector("#name").value;
     console.log(searchInput);
 
     //check teams and display...need to change html elements here
@@ -35,14 +38,14 @@ function createSearchFunction(){
       .then((teams) => {
           teams.forEach(element => {
             if(element.name === searchInput){
-              //element.name
-              //element.city
-              //element.conference
-              //element.division
+              document.querySelector("#teamName").innerText = element.name;
+              document.querySelector("#teamCity").innerText = element.city;
+              document.querySelector("#teamConference").innerText = element.conference;
+              document.querySelector("#teamDivision").innerText = element.division;
+              document.querySelector("#teamImg").src = element.img;
             }
           });
         });
-  })
 }
 
 //append to side nav

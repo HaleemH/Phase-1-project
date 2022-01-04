@@ -55,3 +55,8 @@ body {
   list-style-type: none;
   
 }
+
+#teamImg{
+    width: 300px;
+    height: auto;
+}
