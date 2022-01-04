@@ -1,25 +1,28 @@
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    margin: 2rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  margin: 2rem;
 }
 
-#title{
-    color: rgb(24, 8, 252);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    margin: 2rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    text-shadow: 2px 2px 2px whitesmoke;
-    border-bottom: 5px solid red ;
-    border-top: 5px solid red;
+#title {
+  background-color: rgb(16, 39, 248);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  margin: 2rem;
+  border-radius: 20px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  border-bottom: 5px solid red;
+  border-top: 5px solid red;
 }
 #title img {
-    max-width: 100px;
+  max-width: 100px;
 }
 
+.sidenav {
+
+}
