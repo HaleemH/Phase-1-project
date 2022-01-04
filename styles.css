@@ -46,7 +46,7 @@ body {
   font-size: 1.2rem;
   min-width:content ;
   padding: .5rem;
-  margin-right: 50%;
+  margin-right: 10rem;
   border: 3px ridge #cbc7ff ;
   border-radius: 20px;
 }
@@ -59,4 +59,24 @@ body {
 #teamImg{
     width: 300px;
     height: auto;
+}
+
+#list li:hover {
+  list-style-type: none;
+  cursor: pointer;
+  color: red;  
+  
+}
+
+table {
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+table th {
+  border: 1px solid black;
+}
+table td {
+  border: 1px solid black;
+  
 }
