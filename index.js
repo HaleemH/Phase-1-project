@@ -58,7 +58,6 @@ function handleSubmit(e) {
         }
       });
     });
-    
 }
 
 //append to side nav
@@ -69,7 +68,27 @@ function sideNav(teams) {
 
   //click event on list items
   const clicked = li.addEventListener("click", (e) => {
-    const click = e.target;
+    const click = e.target.innerHTML;
     console.log(click);
+
+    fetch("http://localhost:3000/data")
+      .then((res) => res.json())
+      .then((teams) => {
+        teams.forEach((element) => {
+          if (element.name === click) {
+            const img = document.createElement("img");
+            img.src = element.img;
+            display.prepend(img);
+            const name = element.name;
+            fName.append(name);
+            const city = element.city;
+            fCity.append(city);
+            const conf = element.conference;
+            fConf.append(conf);
+            const div = element.division;
+            fDiv.append(div);
+          }
+        });
+      });
   });
 }

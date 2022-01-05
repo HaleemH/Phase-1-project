@@ -1,7 +1,6 @@
 /* title */
 
 body {
-  
 }
 #title {
   background-color: #1027f8;
@@ -28,15 +27,16 @@ body {
 /* main container */
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  /* padding: 4rem; */
+  flex-direction: row;
+  padding: 4rem;
   margin: 2rem;
 }
 
-.sidenav h3{
+.sidenav h3 {
   color: red;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 .sidenav {
   background-color: rgb(238, 238, 238);
@@ -44,28 +44,26 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  min-width:content ;
-  padding: .5rem;
+  min-width: content;
+  padding: 0.5rem;
   margin-right: 10rem;
-  border: 3px ridge #cbc7ff ;
+  border: 3px ridge #cbc7ff;
   border-radius: 20px;
 }
 
 #list {
   list-style-type: none;
-  
 }
 
-#teamImg{
-    width: 300px;
-    height: auto;
+#teamImg {
+  width: 300px;
+  height: auto;
 }
 
 #list li:hover {
   list-style-type: none;
   cursor: pointer;
-  color: red;  
-  
+  color: red;
 }
 
 table {
@@ -78,10 +76,27 @@ table th {
 }
 table td {
   border: 1px solid black;
-  
+}
+.form {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 4;
 }
 
 #display img {
   max-width: 300px;
   border-radius: 30px;
+}
+
+#display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: auto;
 }
