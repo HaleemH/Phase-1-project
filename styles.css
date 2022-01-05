@@ -5,19 +5,19 @@
 } */
 
 #title {
-  background-color: #2e3891;
+  /* background-color: #2e389154; */
   color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: column;
+  flex-direction: center;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 4rem;
-  margin: 2rem;
+  /* padding: 2rem;
+  margin: 1rem; */
   border-radius: 20px;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  border-bottom: 5px solid red;
-  border-top: 5px solid red;
+  /* border-bottom: 5px solid red;
+  border-top: 5px solid red; */
 }
 #title img {
   max-width: 100px;
@@ -69,7 +69,7 @@
 .commentForm{
   position: absolute;
   right: 200px;
-  top: 400px;
+  top: 165px;
 }
 .searchBar{
   display: flex;
