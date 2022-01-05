@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', init);
 
 let list = document.querySelector("#list")
 let engine = document.querySelector(".form")
-let searchInput;
+let searchInput; 
+
 
 function init(){
   fetchTeams()
@@ -14,7 +15,6 @@ function init(){
       fetch("http://localhost:3000/data")
       .then((res) => res.json())
       .then((teams) => {
-          console.log(teams);
           teams.forEach(element => {
           sideNav(element)
         });
@@ -36,16 +36,18 @@ function handleSubmit(e){
     fetch("http://localhost:3000/data")
       .then((res) => res.json())
       .then((teams) => {
-          teams.forEach(element => {
-            if(element.name === searchInput){
-              document.querySelector("#teamName").innerText = element.name;
-              document.querySelector("#teamCity").innerText = element.city;
-              document.querySelector("#teamConference").innerText = element.conference;
-              document.querySelector("#teamDivision").innerText = element.division;
-              document.querySelector("#teamImg").src = element.img;
-            }
-          });
-        });
+
+            //const fuse = new Fuse(teams, {keys: ['name', 'full_name']});
+            //const results = fuse.search(searchInput);
+            console.log(results);
+          
+            // if(element.name.toLowerCase() === searchInput.toLowerCase()){
+            //   document.querySelector("#teamName").innerText = element.name;
+            //   document.querySelector("#teamCity").innerText = element.city;
+            //   document.querySelector("#teamConference").innerText = element.conference;
+            //   document.querySelector("#teamDivision").innerText = element.division;
+            //   document.querySelector("#teamImg").src = element.img;
+      })
 }
 
 //append to side nav
