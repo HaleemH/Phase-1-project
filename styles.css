@@ -80,3 +80,8 @@ table td {
   border: 1px solid black;
   
 }
+
+#display img {
+  max-width: 300px;
+  border-radius: 30px;
+}
