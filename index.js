@@ -58,6 +58,7 @@ function handleSubmit(e) {
         }
       });
     });
+    
 }
 
 //append to side nav
