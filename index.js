@@ -80,17 +80,11 @@ function sideNav(teams) {
       .then((teams) => {
         teams.forEach((element) => {
           if (element.name === click) {
-            const img = document.createElement("img");
-            img.src = element.img;
-            display.prepend(img);
-            const name = element.name;
-            fName.append(name);
-            const city = element.city;
-            fCity.append(city);
-            const conf = element.conference;
-            fConf.append(conf);
-            const div = element.division;
-            fDiv.append(div);
+            document.querySelector("#teamName").innerText = `Team Name: ${element.name}`;
+            document.querySelector("#teamCity").innerText = `Team City: ${element.city}`;
+            document.querySelector("#teamConference").innerText = `Conference: ${element.conference}`;
+            document.querySelector("#teamDivision").innerText = `Divison: ${element.division}`;
+            document.querySelector("#teamImg").src = element.img;
           }
         });
       });
