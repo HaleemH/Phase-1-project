@@ -16,23 +16,41 @@
       />
     </div>
     <div class="container">
-    <div class="sidenav">
-      <h3>Current Teams</h3>
-       <ul id="list"></ul>
+      <div class="sidenav">
+        <h3>Current Teams</h3>
+        <ul id="list"></ul>
+      </div>
+      <div class="form">
+        <form>
+          <h1>Team Finder</h1>
+          <div class = "searchBar">
+            <input type="search" id="name" placeholder="Team Name">
+            <button type = "submit">Search</button>
+          </div>
+        </form>
+        <!-- <div id="display"> -->
+          <div class = "results">
+            <img id="teamImg" src="" alt="team image">
+            <ul id="teamName"></ul>
+            <ul id="teamCity"></ul>
+            <ul id="teamConference"></ul>
+            <ul id="teamDivision"></ul>
+          </div>
+      </div>
     </div>
-        <div>
-      <form class="form">
-        <textarea id = "name" placeholder="Enter Team Name..."></textarea>      
-        <button type = "submit">Submit</button>
-      </form>
-      <img id="teamImg" src="https://cdn.nba.com/manage/2021/07/NBA_75-690x588.jpg" alt="">
-      <ul id="teamName"></ul>
-      <ul id="teamCity"></ul>
-      <ul id="teamConference"></ul>
-      <ul id="teamDivision"></ul>
-    </div>
-    <script type="text/javascript" src="https://unpkg.com/fuse.js@6.5.3/dist/fuse.min.js"></script>
 
+    <!-- COMMENTS SECTION -->
+
+    <div class="commentForm">
+      <form>
+        <h1>Comment Section</h1>
+        <input type="text" id="comment" placeholder="Comment Here...">
+        <button type = "submit">Comment</button>
+        <ul id="commentsList"></ul> 
+      </form>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/fuse.js@6.5.3/dist/fuse.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 
   </body>
