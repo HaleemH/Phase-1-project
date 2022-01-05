@@ -97,6 +97,14 @@
   
 }
 
+.video-background{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: -10;
+}
+
 table {
   border: 1px solid black;
   min-height: 100px;
