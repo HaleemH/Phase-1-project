@@ -4,7 +4,6 @@ let list = document.querySelector("#list");
 let engine = document.querySelector(".form");
 let commentsButton = document.querySelector(".commentForm");
 let searchInput;
-
 function init() {
   fetchTeams();
   createEventListeners();
@@ -26,7 +25,6 @@ function fetchTeams() {
 function createEventListeners() {
   engine.addEventListener("submit", handleSubmit);
   commentsButton.addEventListener("submit", handleSubmitComment);
-
 }
 
 
@@ -56,6 +54,7 @@ function handleSubmitComment(e){
   li.innerText = document.querySelector("#comment").value;
   document.querySelector("#commentsList").appendChild(li);
 }
+
 
 //append to side nav
 function sideNav(teams) {

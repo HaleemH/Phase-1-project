@@ -19,6 +19,7 @@ header {
 
 #title h1 {
   font-size: 50px;
+  font-family: Helvetica;
 }
 /* main container */
 .container {
@@ -71,8 +72,9 @@ header {
 
 #list li:hover {
   list-style-type: none;
-  cursor: pointer;
-  color: red;
+  cursor:grab;
+  color: white;
+  font-weight: 700;
 }
 
 .video-background{
@@ -84,6 +86,7 @@ header {
 }
 
 .form {
+  padding-left: 4rem;
   margin: 2rem;
   display: flex;
   flex-direction: row;

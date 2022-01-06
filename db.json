@@ -8,7 +8,8 @@
       "division": "Southeast",
       "full_name": "Atlanta Hawks",
       "name": "Hawks",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/atlanta-hawks-new-logo-1-1568x882.jpg"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/atlanta-hawks-new-logo-1-1568x882.jpg",
+      "likes": 0
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "division": "Atlantic",
       "full_name": "Boston Celtics",
       "name": "Celtics",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image13-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image13-1568x882.png",
+      "likes": 0
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "division": "Atlantic",
       "full_name": "Brooklyn Nets",
       "name": "Nets",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image9-768x768.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image9-768x768.png",
+      "likes": 0
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "division": "Southeast",
       "full_name": "Charlotte Hornets",
       "name": "Hornets",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image30-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image30-1568x882.png",
+      "likes": 0
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "division": "Central",
       "full_name": "Chicago Bulls",
       "name": "Bulls",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image11-1-1568x1122.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image11-1-1568x1122.png",
+      "likes": 0
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "division": "Central",
       "full_name": "Cleveland Cavaliers",
       "name": "Cavaliers",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image3-4.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image3-4.png",
+      "likes": 0
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "division": "Southwest",
       "full_name": "Dallas Mavericks",
       "name": "Mavericks",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image4-3-1568x980.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image4-3-1568x980.png",
+      "likes": 0
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "division": "Northwest",
       "full_name": "Denver Nuggets",
       "name": "Nuggets",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image17-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image17-1568x882.png",
+      "likes": 0
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "division": "Central",
       "full_name": "Detroit Pistons",
       "name": "Pistons",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image2-5-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image2-5-1568x882.png",
+      "likes": 0
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "division": "Pacific",
       "full_name": "Golden State Warriors",
       "name": "Warriors",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image22-1568x980.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image22-1568x980.png",
+      "likes": 0
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "division": "Southwest",
       "full_name": "Houston Rockets",
       "name": "Rockets",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image6-3-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image6-3-1568x882.png",
+      "likes": 0
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "division": "Central",
       "full_name": "Indiana Pacers",
       "name": "Pacers",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image24-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image24-1568x882.png",
+      "likes": 0
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "division": "Pacific",
       "full_name": "LA Clippers",
       "name": "Clippers",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image12.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image12.png",
+      "likes": 0
     },
     {
       "id": 14,
@@ -138,7 +151,8 @@
       "division": "Pacific",
       "full_name": "Los Angeles Lakers",
       "name": "Lakers",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image29-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image29-1568x882.png",
+      "likes": 0
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "division": "Southwest",
       "full_name": "Memphis Grizzlies",
       "name": "Grizzlies",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image26-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image26-1568x882.png",
+      "likes": 0
     },
     {
       "id": 16,
@@ -158,7 +173,8 @@
       "division": "Southeast",
       "full_name": "Miami Heat",
       "name": "Heat",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image7-1-1568x1050.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image7-1-1568x1050.png",
+      "likes": 0
     },
     {
       "id": 17,
@@ -168,7 +184,8 @@
       "division": "Central",
       "full_name": "Milwaukee Bucks",
       "name": "Bucks",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image33-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image33-1568x882.png",
+      "likes": 0
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "division": "Northwest",
       "full_name": "Minnesota Timberwolves",
       "name": "Timberwolves",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image31-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image31-1568x882.png",
+      "likes": 0
     },
     {
       "id": 19,
@@ -188,7 +206,8 @@
       "division": "Southwest",
       "full_name": "New Orleans Pelicans",
       "name": "Pelicans",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image5-1.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image5-1.png",
+      "likes": 0
     },
     {
       "id": 20,
@@ -198,7 +217,8 @@
       "division": "Atlantic",
       "full_name": "New York Knicks",
       "name": "Knicks",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image23.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image23.png",
+      "likes": 0
     },
     {
       "id": 21,
@@ -208,7 +228,8 @@
       "division": "Northwest",
       "full_name": "Oklahoma City Thunder",
       "name": "Thunder",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image16-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image16-1568x882.png",
+      "likes": 0
     },
     {
       "id": 22,
@@ -218,7 +239,8 @@
       "division": "Southeast",
       "full_name": "Orlando Magic",
       "name": "Magic",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image15-768x558.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image15-768x558.png",
+      "likes": 0
     },
     {
       "id": 23,
@@ -228,7 +250,8 @@
       "division": "Atlantic",
       "full_name": "Philadelphia 76ers",
       "name": "76ers",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image14-1568x882.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image14-1568x882.png",
+      "likes": 0
     },
     {
       "id": 24,
@@ -238,7 +261,8 @@
       "division": "Pacific",
       "full_name": "Phoenix Suns",
       "name": "Suns",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image28-768x777.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image28-768x777.png",
+      "likes": 0
     },
     {
       "id": 25,
@@ -248,7 +272,8 @@
       "division": "Northwest",
       "full_name": "Portland Trail Blazers",
       "name": "Trail Blazers",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image18-1568x991.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image18-1568x991.png",
+      "likes": 0
     },
     {
       "id": 26,
@@ -258,7 +283,8 @@
       "division": "Pacific",
       "full_name": "Sacramento Kings",
       "name": "Kings",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image34.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image34.png",
+      "likes": 0
     },
     {
       "id": 27,
@@ -268,7 +294,8 @@
       "division": "Southwest",
       "full_name": "San Antonio Spurs",
       "name": "Spurs",
-      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image25.png"
+      "img": "https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/2020/06/image25.png",
+      "likes": 0
     },
     {
       "id": 28,
@@ -278,7 +305,8 @@
       "division": "Atlantic",
       "full_name": "Toronto Raptors",
       "name": "Raptors",
-      "img": "https://external-preview.redd.it/cO8xdAZt14VdmZUc1aPmzkDRpRE4ZJsxMGWc7nataZY.png?auto=webp&s=be80379832a0d9b326e6a223d5e0db51959048cb"
+      "img": "https://external-preview.redd.it/cO8xdAZt14VdmZUc1aPmzkDRpRE4ZJsxMGWc7nataZY.png?auto=webp&s=be80379832a0d9b326e6a223d5e0db51959048cb",
+      "likes": 0
     },
     {
       "id": 29,
@@ -288,7 +316,8 @@
       "division": "Northwest",
       "full_name": "Utah Jazz",
       "name": "Jazz",
-      "img": "https://content.sportslogos.net/logos/6/234/full/6749_utah_jazz-primary-2017.png"
+      "img": "https://content.sportslogos.net/logos/6/234/full/6749_utah_jazz-primary-2017.png",
+      "likes": 0
     },
     {
       "id": 30,
@@ -298,7 +327,8 @@
       "division": "Southeast",
       "full_name": "Washington Wizards",
       "name": "Wizards",
-      "img": "https://content.sportslogos.net/logos/6/219/full/7525_washington_wizards-primary_on_dark-2015.png"
+      "img": "https://content.sportslogos.net/logos/6/219/full/7525_washington_wizards-primary_on_dark-2015.png",
+      "likes": 0
     }
   ],
   "meta": {
