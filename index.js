@@ -4,7 +4,14 @@ let list = document.querySelector("#list");
 let engine = document.querySelector(".form");
 let commentsButton = document.querySelector(".commentForm");
 let searchInput;
-//formIds
+
+const options = {
+  keys: [
+	"name",
+	"full_name"
+  ]
+};
+
 const fName = document.querySelector("#teamName"); //.innerText = element.name;
 const fCity = document.querySelector("#teamCity"); //.innerText = element.city;
 const fConf = document.querySelector("#teamConference"); //.innerText = element.conference;
@@ -45,15 +52,25 @@ function handleSubmit(e) {
   fetch("http://localhost:3000/data")
     .then((res) => res.json())
     .then((teams) => {
-      teams.forEach((element) => {
-        if (element.name.toUpperCase() === searchInput.toUpperCase()) {
-          document.querySelector("#teamName").innerText = `Team Name: ${element.name}`;
-          document.querySelector("#teamCity").innerText = `Team City: ${element.city}`;
-          document.querySelector("#teamConference").innerText = `Conference: ${element.conference}`;
-          document.querySelector("#teamDivision").innerText = `Divison: ${element.division}`;
-          document.querySelector("#teamImg").src = element.img;
-        }
-      });
+        const fuse = new Fuse(teams, options)
+
+        console.log(fuse.search(searchInput)[0].item.img);
+        document.querySelector("#teamName").innerText = `Team Name: ${(fuse.search(searchInput)[0].item.name)}`;
+        document.querySelector("#teamCity").innerText = `Team City: ${(fuse.search(searchInput)[0].item.city)}`;
+        document.querySelector("#teamConference").innerText = `Conference: ${(fuse.search(searchInput)[0].item.conference)}`;
+        document.querySelector("#teamDivision").innerText = `Division: ${(fuse.search(searchInput)[0].item.division)}`;
+        document.querySelector("#teamImg").src = fuse.search(searchInput)[0].item.img;
+
+      //THIS IS THE OLD METHOD BEFORE FUZZY SEARCH//
+      // teams.forEach((element) => {
+        // if (element.name.toUpperCase() === searchInput.toUpperCase()) {
+        //   document.querySelector("#teamName").innerText = `Team Name: ${element.name}`;
+        //   document.querySelector("#teamCity").innerText = `Team City: ${element.city}`;
+        //   document.querySelector("#teamConference").innerText = `Conference: ${element.conference}`;
+        //   document.querySelector("#teamDivision").innerText = `Divison: ${element.division}`;
+        //   document.querySelector("#teamImg").src = element.img;
+        // }
+      // });
     });
 }
 
