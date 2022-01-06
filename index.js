@@ -4,12 +4,6 @@ let list = document.querySelector("#list");
 let engine = document.querySelector(".form");
 let commentsButton = document.querySelector(".commentForm");
 let searchInput;
-//formIds
-const fName = document.querySelector("#teamName"); //.innerText = element.name;
-const fCity = document.querySelector("#teamCity"); //.innerText = element.city;
-const fConf = document.querySelector("#teamConference"); //.innerText = element.conference;
-const fDiv = document.querySelector("#teamDivision"); //.innerText = element.division;
-const fImg = document.querySelector("#teamImg");
 
 function init() {
   fetchTeams();
