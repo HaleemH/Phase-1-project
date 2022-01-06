@@ -15,7 +15,6 @@ function fetchTeams() {
   fetch("http://localhost:3000/data")
     .then((res) => res.json())
     .then((teams) => {
-      // console.log(teams);
       teams.forEach((element) => {
         sideNav(element);
       });
