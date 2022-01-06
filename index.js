@@ -28,7 +28,6 @@ function fetchTeams() {
   fetch("http://localhost:3000/data")
     .then((res) => res.json())
     .then((teams) => {
-      // console.log(teams);
       teams.forEach((element) => {
         sideNav(element);
       });
@@ -40,7 +39,6 @@ function fetchTeams() {
 function createEventListeners() {
   engine.addEventListener("submit", handleSubmit);
   commentsButton.addEventListener("submit", handleSubmitComment);
-
 }
 
 
@@ -80,6 +78,7 @@ function handleSubmitComment(e){
   li.innerText = document.querySelector("#comment").value;
   document.querySelector("#commentsList").appendChild(li);
 }
+
 
 //append to side nav
 function sideNav(teams) {

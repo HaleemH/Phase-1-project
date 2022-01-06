@@ -10,11 +10,11 @@
   <body>
     <header>
       <video autoplay loop class="video-background" muted plays-inline>
-        <source src="basketballcourt2.mp4" type="video/mp4">
+        <source src="basketballcourt2.mp4" type="video/mp4" />
       </video>
     </header>
     <div id="title">
-      <h1>Team Expansion</h1>
+      <h1>FANDOM</h1>
       <img
         src="https://cdn.nba.com/logos/nba/nba-logoman-75-word_white.svg"
         alt="NBA Logo"
@@ -28,35 +28,35 @@
       <div class="form">
         <form>
           <h1>Team Finder</h1>
-          <div class = "searchBar">
-            <input type="search" id="name" placeholder="Team Name">
-            <button type = "submit">Search</button>
+          <div class="searchBar">
+            <input type="search" id="name" placeholder="Team Name" />
+            <button type="submit">Search</button>
           </div>
         </form>
         <!-- <div id="display"> -->
-          <div class = "results">
-            <img id="teamImg" src="" alt="team image">
-            <ul id="teamName"></ul>
-            <ul id="teamCity"></ul>
-            <ul id="teamConference"></ul>
-            <ul id="teamDivision"></ul>
-          </div>
+        <div class="results">
+          <img id="teamImg" src=""  />
+          <ul id="teamName"></ul>
+          <ul id="teamCity"></ul>
+          <ul id="teamConference"></ul>
+          <ul id="teamDivision"></ul>
+        </div>
+        <!-- COMMENTS SECTION -->
+        <div class="commentForm">
+          <form>
+          <h1>Comment Section</h1>
+          <input type="text" id="comment" placeholder="Comment Here..." />
+          <button type="submit">Comment</button>
+          <ul id="commentsList"></ul>
+        </form>
+      </div>
       </div>
     </div>
 
-    <!-- COMMENTS SECTION -->
-
-    <div class="commentForm">
-      <form>
-        <h1>Comment Section</h1>
-        <input type="text" id="comment" placeholder="Comment Here...">
-        <button type = "submit">Comment</button>
-        <ul id="commentsList"></ul> 
-      </form>
-    </div>
-
-    <script type="text/javascript" src="https://unpkg.com/fuse.js@6.5.3/dist/fuse.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/fuse.js@6.5.3/dist/fuse.min.js"
+    ></script>
     <script type="text/javascript" src="index.js"></script>
-
   </body>
 </html>
