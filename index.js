@@ -8,15 +8,16 @@ let searchInput;
 const options = {
   keys: [
 	"name",
-	"full_name"
+	"full_name",
+  "city"
   ]
 };
 
-const fName = document.querySelector("#teamName"); //.innerText = element.name;
-const fCity = document.querySelector("#teamCity"); //.innerText = element.city;
-const fConf = document.querySelector("#teamConference"); //.innerText = element.conference;
-const fDiv = document.querySelector("#teamDivision"); //.innerText = element.division;
-const fImg = document.querySelector("#teamImg");
+// const fName = document.querySelector("#teamName"); //.innerText = element.name;
+// const fCity = document.querySelector("#teamCity"); //.innerText = element.city;
+// const fConf = document.querySelector("#teamConference"); //.innerText = element.conference;
+// const fDiv = document.querySelector("#teamDivision"); //.innerText = element.division;
+// const fImg = document.querySelector("#teamImg");
 
 function init() {
   fetchTeams();

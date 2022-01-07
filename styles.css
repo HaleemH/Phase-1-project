@@ -129,3 +129,25 @@ header {
   max-height: 600px;
   margin: 5%;
 }
+
+.commentForm h1{
+  text-align: center;
+}
+
+.commentForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#commentsList li{
+  list-style-type:none;
+  min-width: 150px;
+  margin-left: -30px;
+  padding: 3px;
+  font-family: Helvetica;
+  background-color: rgba(245, 245, 245, 0.609);
+  border-bottom: .5px solid black;
+
+}
