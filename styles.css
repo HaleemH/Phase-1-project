@@ -1,10 +1,12 @@
 body {
   background-color: black;
+  
 }
 
 header {
   min-width: 100%;
   min-height: 100%;
+  max-height: fit-content;
 }
 
 #title {
@@ -51,7 +53,7 @@ header {
   padding: 0.5rem;
   border: 3px ridge #cbc7ff;
   border-radius: 20px;
-  overflow: scroll;
+  overflow:scroll;
 }
 
 .searchBar {
@@ -150,4 +152,14 @@ header {
   background-color: rgba(245, 245, 245, 0.609);
   border-bottom: .5px solid black;
 
+}
+
+#like {
+  font-size: 1.5rem;
+}
+
+#like:hover {
+  cursor:alias;
+  color: whitesmoke;
+  
 }

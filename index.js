@@ -4,6 +4,7 @@ let list = document.querySelector("#list");
 let engine = document.querySelector(".form");
 let commentsButton = document.querySelector(".commentForm");
 let searchInput;
+let like = document.querySelector("#like")
 
 const options = {
   keys: [
@@ -59,7 +60,11 @@ function handleSubmit(e) {
         document.querySelector("#teamConference").innerText = `Conference: ${(fuse.search(searchInput)[0].item.conference)}`;
         document.querySelector("#teamDivision").innerText = `Division: ${(fuse.search(searchInput)[0].item.division)}`;
         document.querySelector("#teamImg").src = fuse.search(searchInput)[0].item.img;
-
+        //Like feature
+        document.querySelector("#like").innerText = `Vote For ${(fuse.search(searchInput)[0].item.name)}: ${(fuse.search(searchInput)[0].item.likes)}`;
+        like.addEventListener("click", (e) => {
+          document.querySelector("#like").innerText = `Keep Voting: ${(fuse.search(searchInput)[0].item.likes) += 1}`;
+        })
       //THIS IS THE OLD METHOD BEFORE FUZZY SEARCH//
       // teams.forEach((element) => {
         // if (element.name.toUpperCase() === searchInput.toUpperCase()) {
@@ -90,8 +95,6 @@ function sideNav(teams) {
   //click event on list items
   const clicked = li.addEventListener("click", (e) => {
     const click = e.target.innerHTML;
-    console.log(click);
-
     fetch("http://localhost:3000/data")
       .then((res) => res.json())
       .then((teams) => {
@@ -102,6 +105,11 @@ function sideNav(teams) {
             document.querySelector("#teamConference").innerText = `Conference: ${element.conference}`;
             document.querySelector("#teamDivision").innerText = `Divison: ${element.division}`;
             document.querySelector("#teamImg").src = element.img;
+            //Like feature
+            document.querySelector("#like").innerText = `Click to increase Likes: ${(fuse.search(searchInput)[0].item.likes)}`;
+            like.addEventListener("click", (e) => {
+              document.querySelector("#like").innerText = `Click to increase Likes: ${(fuse.search(searchInput)[0].item.likes) += 1}`;
+        })
           }
         });
       });
