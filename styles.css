@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 header {
   min-width: 100%;
   min-height: 100%;
@@ -33,7 +37,7 @@ header {
 }
 
 .sidenav h3 {
-  color: red;
+  color: whitesmoke;
   padding-left: 0.5rem;
 }
 .sidenav {
@@ -50,14 +54,14 @@ header {
   overflow: scroll;
 }
 
-.searchBar{
+.searchBar {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   max-width: 200px;
-  margin: 5%
+  margin: 5%;
 }
-#name{
+#name {
   width: 400px;
 }
 #list {
@@ -65,19 +69,19 @@ header {
 }
 
 /* logos */
-#teamImg{
-    width: 300px;
-    height: auto;
+#teamImg {
+  width: 300px;
+  height: auto;
 }
 
 #list li:hover {
   list-style-type: none;
-  cursor:grab;
+  cursor: grab;
   color: white;
   font-weight: 700;
 }
 
-.video-background{
+.video-background {
   position: absolute;
   right: 0;
   width: 100%;
@@ -123,5 +127,5 @@ header {
   justify-content: center;
   flex-grow: 4;
   max-height: 600px;
-  margin: 5%
+  margin: 5%;
 }
